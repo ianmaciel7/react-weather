@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-flow: column;
+  background: linear-gradient(
+    to left top,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0)
+  );
+  border-radius: 1rem;
+  margin: auto;
+  padding: 4%;
+  box-shadow: 6px 6px 20px rgb(122 122 122 / 21%);
+  justify-content: space-between;
+  max-width: 600px;
+  height: auto;
+}
+
+.card-title {
+}
+
+.card-main {
+  display: flex;
+  height: auto;
+  align-items: center;
+  flex-flow: wrap-reverse;
+  justify-content: space-evenly;
+}
+
+.card-footer {
+  font-size: xxx-large;
+  display: flex;
+  align-items: center;
+}
+
+.card-img > img {
+  width: 100%;
+  height: 100%;
+}

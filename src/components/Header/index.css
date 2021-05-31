@@ -1,0 +1,27 @@
+.header {
+  width: 100%;
+  background-color: var(--primary-main);
+  height: 60px;
+  font-weight: bold;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-link {
+  display: flex;
+  width: -webkit-fill-available;
+  padding-left: var(--padding-container);
+  text-align: initial;
+  align-items: center;
+}
+
+.sub-links {
+  display: flex;
+  width: auto;
+  padding-right: var(--padding-container);
+  min-width: 40vw;
+  justify-content: flex-end;
+  align-items: center;
+}

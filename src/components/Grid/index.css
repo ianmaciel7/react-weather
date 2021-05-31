@@ -1,0 +1,16 @@
+.grid-city {
+  display: grid;
+  grid-template-columns: auto minmax(10vw, 70vw) auto;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card,
+.spinner {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.form-search {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
